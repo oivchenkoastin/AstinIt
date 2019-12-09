@@ -1,0 +1,54 @@
+﻿@model AstinIt.Project
+
+@{
+    ViewBag.Title = "ProjectPage";
+    Project project = ViewBag.project;
+    List<ProjectCost> projectCosts = ViewBag.projectCosts;
+}
+
+<h2>ProjectPage</h2>
+
+<ul class="list-group">
+    <li class="list-group-item active">@project.Name</li>
+    <li class="list-group-item">@project.Id</li>
+    <li class="list-group-item">@project.Active</li>
+</ul>
+
+<div class="userInfoGrid">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Value</th>
+                <th scope="col">Currency</th>
+                <th scope="col">Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (ProjectCost p in projectCosts)
+            {
+                string color = p.Active ? "table-success" : "table-secondary";
+                <tr>
+                    <td class="">
+                        @p.Name
+                    </td>
+                    <td class="">
+                        @p.Description
+                    </td>
+                    <td class="@color">
+                        @p.Value
+                    </td>
+                    <td class="@color">
+                        USD
+                    </td>
+                    <td class="">
+                        <a href="/ProjectCost/@p.Id">Details</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+</div>

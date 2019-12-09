@@ -1,0 +1,69 @@
+﻿<!-- ko with: home -->
+<div class="jumbotron">
+    <h1>Astin AstinIt</h1>
+    <p class="lead">Astin AstinIt is best AstinIt site ever!</p>
+    <p>
+        <a href="/" class="btn btn-primary btn-lg">Learn more &raquo;</a>
+    </p>
+</div>
+<div class="userInfoGrid">
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Project name</th>
+            <th scope="col">Active</th>
+            <th scope="col">Link</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (Project p in ViewBag.projects)
+        {
+            string color = p.Active ? "table-success" : "table-secondary";
+            <tr>
+                <td class="">
+                    @p.Name
+                </td>
+                <td class="@color">
+                    @p.Active
+                </td>
+                <td class="">
+                    <a href="/Project/UserProject/@p.Id">Details</a>
+                </td>
+            </tr>
+        }
+
+        </tbody>
+    </table>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Configure your account</h2>
+        <p>Hi user, thats your personal configuration page.</p>
+        <p data-bind="text: myHometown"></p>
+
+        <p>
+            <a class="btn btn-primary" href="/Manage">Learn more &raquo;</a>
+        </p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>Astin AstinIt top 2</h2>
+        <p>
+            Some useful information for user by link:
+        </p>
+        <p>
+            <a class="btn btn-primary" href="/">Learn more &raquo;</a>
+        </p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>Astin AstinIt top 3</h2>
+        <p>Any suggestions?</p>
+        <p>
+            <a class="btn btn-primary" href="/">Learn more &raquo;</a>
+        </p>
+    </div>
+</div>
+
+<!-- /ko -->

@@ -1,0 +1,75 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Admin panel</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/ace.js"></script>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light container">
+    @Html.ActionLink("Admin panel Astin AstinIt!", "Index", "Home", new {area = ""}, new {@class = "navbar-brand"})
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+
+            <a class="nav-item nav-link active" href="/admin">Admin home <span class="sr-only">(current)</span></a>
+
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Other
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                    <a class="nav-item nav-link" href="/vacancy/vacancysection">vacancy</a>
+                    <div class="dropdown-divider"></div>
+
+                    <a class="nav-item nav-link" href="/article/articlesection">article</a>
+                    <div class="dropdown-divider"></div>
+
+                    <a class="nav-item nav-link" href="/country/countrysection">Country</a>
+                    <a class="nav-item nav-link" href="/city/citysection">City</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="nav-item nav-link disabled" href="/">Pricing</a>
+                </div>
+            </div>
+
+            <a class="nav-item nav-link" href="/project/projectsection">Projects</a>
+            <a class="nav-item nav-link" href="/admin/infosection">Site Info</a>
+
+
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pages
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="nav-item nav-link" href="/admin/PageData?name=about">About</a>
+                    <a class="nav-item nav-link" href="/admin/PageData?name=services">Services</a>
+                    <a class="nav-item nav-link" href="/admin/PageData?name=contacts">Contacts</a>
+                </div>
+            </div>
+        </div>
+</nav>
+<div class="container body-content">
+    @RenderBody()
+    @RenderSection("SPAViews", required: false)
+    <hr/>
+    <footer>
+        <p>&copy; @DateTime.Now.Year - YoMan!!</p>
+    </footer>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("Scripts", required: false)
+</body>
+</html>

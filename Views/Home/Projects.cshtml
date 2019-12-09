@@ -1,0 +1,41 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "Your Projects";
+}
+
+<h2>Your Projects</h2>
+<div class="userInfoGrid">
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Guid</th>
+            <th scope="col">Project name</th>
+            <th scope="col">Active</th>
+            <th scope="col">Link</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (Project p in ViewBag.projects)
+        {
+            string color = p.Active ? "table-success" : "table-secondary";
+            <tr>
+                <td class="">
+                    @p.Id
+                </td>
+                <td class="">
+                    @p.Name
+                </td>
+                <td class="@color">
+                    @p.Active
+                </td>
+                <td class="">
+                    <a href="/projects/@p.Id">Details</a>
+                </td>
+            </tr>
+        }
+
+        </tbody>
+    </table>
+    
+</div>

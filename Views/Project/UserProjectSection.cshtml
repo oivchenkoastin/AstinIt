@@ -1,0 +1,50 @@
+﻿@model List<Project>
+
+@{
+    ViewBag.Title = "Projects";
+
+    string s = ViewBag.s;
+}
+<div class="container">
+    <h2>Projects</h2>
+    <form method="get" action="/project/userprojectsection" class="form-inline">
+        <div class="input-group mb-3 searchInput">
+            <input type="text" class="form-control" value="@s" name = "s" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+                <button class="btn btn-secondary" type="submit">Search</button>
+            </div>
+        </div>
+    </form>
+    
+    
+    <div class="userInfoGrid">
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Link</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var p in Model)
+            {
+                string color = p.Active ? "table-success" : "table-secondary";
+                <tr>
+                    <td class="">
+                        @p.Name
+                    </td>
+                    <td >
+                        @p.Description
+                    </td>
+                    <td>
+                        <a href="/Project/UserProject/@p.Id">Show more</a>
+                    </td>
+                </tr>
+            }
+    
+            </tbody>
+        </table>
+    
+    </div>
+</div>

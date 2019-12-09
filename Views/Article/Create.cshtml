@@ -1,0 +1,95 @@
+﻿@using AstinIt.Areas
+@model Article
+
+@{
+    ViewBag.Title = "New article";
+    Layout = "~/Views/Admin/_Layout.cshtml";
+}
+
+
+<h1>New Article</h1>
+<h2>@Html.DisplayFor(model => model.Name) </h2>
+
+@{
+    using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+        @Html.Hidden("Id", Guid.NewGuid().ToString())
+        <div class="form-group">
+            @Html.LabelFor(m => m.Name, new { @class = "col-md-2 control-label" })
+            <div class="col-md-12">
+                @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Description, new { @class = "col-md-2 control-label" })
+            <div class="col-md-12">
+                @Html.TextBoxFor(m => m.Description, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Header, new { @class = "col-md-2 control-label" })
+            <div class="col-md-12">
+                @Html.TextBoxFor(m => m.Header, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Value, new { @class = "col-md-2 control-label" })
+            <div class="col-md-12">
+                @Html.TextBoxFor(m => m.Value, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Title, new { @class = "col-md-2 control-label" })
+            <div class="col-md-12">
+                @Html.TextAreaFor(m => m.Title, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Header, new { @class = "col-md-2 control-label" })
+            <div class="col-md-12">
+                @Html.TextAreaFor(m => m.Header, new { @class = "form-control" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.BodyText, new { @class = "col-md-2 control-label" })
+            <div class="col-md-12">
+                @Html.TextAreaFor(m => m.BodyText, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Language, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-12">
+                @{
+                    var Languages = new List<Language>();
+                    this.UsingDb(db => { Languages = db.Language.ToList(); });
+                    @Html.DropDownListFor(model => model.LanguageId, Languages.ConvertToListItems(null))
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-12">
+                <input type="submit" class="btn btn-primary" value="Add" />
+            </div>
+        </div>
+    }
+
+}
+
+<div class="display-label">Name</div>
+<div class="display-field">
+    @Html.DisplayFor(model => model.Name)
+</div>
+

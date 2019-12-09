@@ -1,0 +1,102 @@
+﻿@using AstinIt.Areas
+@model Article
+
+@{
+    ViewBag.Title = Model.Name;
+    Layout = "~/Views/Admin/_Layout.cshtml";
+}
+
+<h2>@Html.DisplayFor(model => model.Name) </h2>
+
+<div class="display-label">Name</div>
+<div class="display-field">
+    @Html.DisplayFor(model => model.Name)
+</div>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>Country</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Description, new { @class = "col-md-2 control-label" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.Description, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Header, new { @class = "col-md-2 control-label" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.Header, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Header, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Value, new { @class = "col-md-2 control-label" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.Value, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Value, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Title, new { @class = "col-md-2 control-label" })
+        <div class="col-md-12">
+            @Html.TextAreaFor(m => m.Title, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Header, new { @class = "col-md-2 control-label" })
+        <div class="col-md-12">
+            @Html.TextAreaFor(m => m.Header, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Header, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.BodyText, new { @class = "col-md-2 control-label" })
+        <div class="col-md-12">
+            @Html.TextAreaFor(m => m.BodyText, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.BodyText, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Language, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            @{
+                var Languages = new List<Language>();
+                this.UsingDb(db => { Languages = db.Language.ToList(); });
+                @Html.DropDownListFor(model => model.LanguageId, Languages.ConvertToListItems(Model.LanguageId))
+            }
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-12">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </div>
+</div>
+}

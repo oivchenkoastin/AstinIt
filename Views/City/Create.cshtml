@@ -1,0 +1,59 @@
+﻿@using AstinIt.Areas
+@model City
+
+@{
+    ViewBag.Title = "Новый город";
+    Layout = "~/Views/Admin/_Layout.cshtml";
+}
+
+
+<h1>Новый город</h1>
+<h2>@Html.DisplayFor(model => model.Name) </h2>
+
+@{
+    using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+        @Html.Hidden("Id", Guid.NewGuid().ToString())
+        <div class="form-group">
+            @Html.LabelFor(m => m.Name, new { @class = "col-md-2 control-label" })
+            <div class="col-md-12">
+                @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Description, new { @class = "col-md-2 control-label" })
+            <div class="col-md-12">
+                @Html.TextBoxFor(m => m.Description, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CountryId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-12">
+                @{
+                    var countries = new List<Country>();
+                    this.UsingDb(db => { countries = db.Country.ToList(); });
+                    @Html.DropDownListFor(model => model.CountryId, countries.ConvertToListItems(null))
+
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-12">
+                <input type="submit" class="btn btn-primary" value="Add" />
+            </div>
+        </div>
+    }
+
+}
+
+<div class="display-label">Name</div>
+<div class="display-field">
+    @Html.DisplayFor(model => model.Name)
+</div>
+

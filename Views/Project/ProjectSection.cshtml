@@ -1,0 +1,67 @@
+﻿@model List<Project>
+
+@{
+    ViewBag.Title = "Projects";
+    Layout = "~/Views/Admin/_Layout.cshtml";
+
+}
+
+<div class="container">
+    <div class="userInfoGrid">
+        <div class="row p-3">
+            <div class="col-md">
+                <h2>Projects</h2>
+            </div>
+        </div>
+        <div class="row p-3">
+            <div class="col-md">
+                <a href="/Project/Create">
+                    <div class="btn btn-primary">Add</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row p-3">
+            <div class="col-lg">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">User</th>
+                            <th scope="col">Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var p in Model)
+                        {
+                            string color = p.Active ? "table-success" : "table-secondary";
+                            <tr>
+                                <td class="">
+                                    @p.Name
+                                </td>
+                                <td class="">
+                                    @try
+                                    {
+                                        @p.ApplicationUser.UserName
+                                    }
+                                    catch
+                                    {
+                                        @p.Name
+                                    }
+                                </td>
+                                <td class="">
+                                    <a href="/Project/Project/@p.Id">Edit</a>
+
+                                    <a href="/Project/delete/@p.Id">Delete</a>
+
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

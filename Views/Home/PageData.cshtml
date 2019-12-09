@@ -1,0 +1,12 @@
+﻿@model PageData
+
+@{
+    ViewBag.Title = Model.Title;
+}
+
+<div class="container text-center">
+    <h2>@Model.Header</h2>
+</div>
+<div class="container">
+    @Html.Raw(Model.BodyText.Replace("\r\n", "<br />"))
+</div>

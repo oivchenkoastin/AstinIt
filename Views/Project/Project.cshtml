@@ -1,0 +1,108 @@
+﻿@using AstinIt.Areas
+@model Project
+
+@{
+    ViewBag.Title = Model.Name;
+    Layout = "~/Views/Admin/_Layout.cshtml";
+
+    if (Model.ProjectCost == null)
+    {
+        Model.ProjectCost = new List<ProjectCost>();
+    }
+}
+
+<div class="container">
+<h2>@Html.DisplayFor(model => model.Name) </h2>
+
+<hr/>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.Id)
+    @Html.HiddenFor(model => model.ApplicationUserId)
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Active, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            @Html.CheckBoxFor(model => model.Active, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Active, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-12">
+            @Html.TextAreaFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        @Html.DisplayFor(model => model.ApplicationUser.UserName, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-12">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </div>
+</div>
+}
+
+
+<div class="userInfoGrid">
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Value</th>
+            <th scope="col">Currency</th>
+            <th scope="col">Link</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var p in Model.ProjectCost)
+        {
+            string color = p.Active ? "table-success" : "table-secondary";
+            <tr>
+                <td class="">
+                    @p.Name
+                </td>
+                <td class="">
+                    @p.Description
+                </td>
+                <td class="@color">
+                    @p.Value
+                </td>
+                <td class="@color">
+                    @p.Currency.Name
+                </td>
+                <td class="">
+                    <a href="/ProjectCost/ProjectCost/@p.Id">Details</a>
+                </td>
+            </tr>
+        }
+
+        </tbody>
+    </table>
+<a href="/ProjectCost/Create"><div class="btn btn-primary">Add</div></a>
+
+</div>
+</div>

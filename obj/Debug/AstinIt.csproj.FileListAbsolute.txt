@@ -1,0 +1,332 @@
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\AstinIt.dll.config
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\AstinIt.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\AstinIt.pdb
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\csc.exe
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\csc.exe.config
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\csc.rsp
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\csi.exe
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\csi.exe.config
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\csi.rsp
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.AppContext.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Console.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.IO.Compression.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Security.Claims.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.ValueTuple.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\vbc.exe
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\vbc.exe.config
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\vbc.rsp
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\VBCSCompiler.exe
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Antlr3.Runtime.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\EntityFramework.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\EntityFramework.SqlServer.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Newtonsoft.Json.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Owin.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Net.Http.Formatting.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Helpers.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Http.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Http.Owin.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Http.WebHost.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Mvc.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Optimization.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Razor.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.WebPages.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.WebPages.Razor.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\WebGrease.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Antlr3.Runtime.pdb
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\EntityFramework.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\EntityFramework.SqlServer.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Newtonsoft.Json.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Net.Http.Formatting.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Helpers.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Http.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Http.Owin.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Http.WebHost.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Mvc.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Optimization.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.Razor.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.WebPages.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\System.Web.WebPages.Razor.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\obj\Debug\AstinIt.csprojAssemblyReference.cache
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\obj\Debug\AstinIt.csproj.CoreCompileInputs.cache
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\obj\Debug\AstinIt.csproj.CopyComplete
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\obj\Debug\AstinIt.dll
+C:\Users\Amiks\source\repos\AstinIt\AstinIt\obj\Debug\AstinIt.pdb
+E:\From Old windows\repos\AstinIt\AstinIt\bin\AstinIt.dll.config
+E:\From Old windows\repos\AstinIt\AstinIt\bin\AstinIt.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\AstinIt.pdb
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\csc.exe
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\csc.exe.config
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\csc.rsp
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\csi.exe
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\csi.exe.config
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\csi.rsp
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.Managed.Core.targets
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.AppContext.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Collections.Immutable.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Console.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.IO.Compression.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.IO.FileSystem.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.IO.Pipes.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Reflection.Metadata.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Security.AccessControl.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Security.Claims.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Security.Principal.Windows.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.ValueTuple.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Xml.XmlDocument.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Xml.XPath.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\vbc.exe
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\vbc.exe.config
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\vbc.rsp
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\VBCSCompiler.exe
+E:\From Old windows\repos\AstinIt\AstinIt\bin\roslyn\VBCSCompiler.exe.config
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Antlr3.Runtime.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\EntityFramework.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\EntityFramework.SqlServer.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.Core.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Cookies.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Facebook.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Google.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.OAuth.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Twitter.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Web.Infrastructure.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Newtonsoft.Json.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Owin.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Net.Http.Formatting.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Helpers.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Http.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Http.Owin.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Http.WebHost.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Mvc.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Optimization.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Razor.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.WebPages.Deployment.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.WebPages.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.WebPages.Razor.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\WebGrease.dll
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Antlr3.Runtime.pdb
+E:\From Old windows\repos\AstinIt\AstinIt\bin\EntityFramework.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\EntityFramework.SqlServer.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.Core.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Newtonsoft.Json.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Net.Http.Formatting.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Helpers.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Http.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Http.Owin.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Http.WebHost.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Mvc.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Optimization.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.Razor.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.WebPages.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.WebPages.Deployment.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\System.Web.WebPages.Razor.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Facebook.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Cookies.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Google.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Twitter.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.Owin.Security.OAuth.xml
+E:\From Old windows\repos\AstinIt\AstinIt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\From Old windows\repos\AstinIt\AstinIt\obj\Debug\AstinIt.csprojAssemblyReference.cache
+E:\From Old windows\repos\AstinIt\AstinIt\obj\Debug\AstinIt.csproj.CoreCompileInputs.cache
+E:\From Old windows\repos\AstinIt\AstinIt\obj\Debug\AstinIt.csproj.CopyComplete
+E:\From Old windows\repos\AstinIt\AstinIt\obj\Debug\AstinIt.dll
+E:\From Old windows\repos\AstinIt\AstinIt\obj\Debug\AstinIt.pdb
+C:\Yo\AstinIt\AstinIt\bin\AstinIt.dll.config
+C:\Yo\AstinIt\AstinIt\bin\AstinIt.dll
+C:\Yo\AstinIt\AstinIt\bin\AstinIt.pdb
+C:\Yo\AstinIt\AstinIt\bin\roslyn\csc.exe
+C:\Yo\AstinIt\AstinIt\bin\roslyn\csc.exe.config
+C:\Yo\AstinIt\AstinIt\bin\roslyn\csc.rsp
+C:\Yo\AstinIt\AstinIt\bin\roslyn\csi.exe
+C:\Yo\AstinIt\AstinIt\bin\roslyn\csi.exe.config
+C:\Yo\AstinIt\AstinIt\bin\roslyn\csi.rsp
+C:\Yo\AstinIt\AstinIt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Yo\AstinIt\AstinIt\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Yo\AstinIt\AstinIt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.AppContext.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Collections.Immutable.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Console.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.IO.Compression.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.IO.FileSystem.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.IO.Pipes.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Reflection.Metadata.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Security.AccessControl.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Security.Claims.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.ValueTuple.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Xml.XPath.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Yo\AstinIt\AstinIt\bin\roslyn\vbc.exe
+C:\Yo\AstinIt\AstinIt\bin\roslyn\vbc.exe.config
+C:\Yo\AstinIt\AstinIt\bin\roslyn\vbc.rsp
+C:\Yo\AstinIt\AstinIt\bin\roslyn\VBCSCompiler.exe
+C:\Yo\AstinIt\AstinIt\bin\roslyn\VBCSCompiler.exe.config
+C:\Yo\AstinIt\AstinIt\bin\Antlr3.Runtime.dll
+C:\Yo\AstinIt\AstinIt\bin\EntityFramework.dll
+C:\Yo\AstinIt\AstinIt\bin\EntityFramework.SqlServer.dll
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Owin.dll
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Owin.Security.dll
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Web.Infrastructure.dll
+C:\Yo\AstinIt\AstinIt\bin\Newtonsoft.Json.dll
+C:\Yo\AstinIt\AstinIt\bin\Owin.dll
+C:\Yo\AstinIt\AstinIt\bin\System.Net.Http.Formatting.dll
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Helpers.dll
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Http.dll
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Http.Owin.dll
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Http.WebHost.dll
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Mvc.dll
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Optimization.dll
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Razor.dll
+C:\Yo\AstinIt\AstinIt\bin\System.Web.WebPages.Deployment.dll
+C:\Yo\AstinIt\AstinIt\bin\System.Web.WebPages.dll
+C:\Yo\AstinIt\AstinIt\bin\System.Web.WebPages.Razor.dll
+C:\Yo\AstinIt\AstinIt\bin\WebGrease.dll
+C:\Yo\AstinIt\AstinIt\bin\Antlr3.Runtime.pdb
+C:\Yo\AstinIt\AstinIt\bin\EntityFramework.xml
+C:\Yo\AstinIt\AstinIt\bin\EntityFramework.SqlServer.xml
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Yo\AstinIt\AstinIt\bin\Newtonsoft.Json.xml
+C:\Yo\AstinIt\AstinIt\bin\System.Net.Http.Formatting.xml
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Helpers.xml
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Http.xml
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Http.Owin.xml
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Http.WebHost.xml
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Mvc.xml
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Optimization.xml
+C:\Yo\AstinIt\AstinIt\bin\System.Web.Razor.xml
+C:\Yo\AstinIt\AstinIt\bin\System.Web.WebPages.xml
+C:\Yo\AstinIt\AstinIt\bin\System.Web.WebPages.Deployment.xml
+C:\Yo\AstinIt\AstinIt\bin\System.Web.WebPages.Razor.xml
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Owin.xml
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Owin.Security.xml
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Yo\AstinIt\AstinIt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Yo\AstinIt\AstinIt\obj\Debug\AstinIt.csprojAssemblyReference.cache
+C:\Yo\AstinIt\AstinIt\obj\Debug\AstinIt.csproj.CopyComplete
+C:\Yo\AstinIt\AstinIt\obj\Debug\AstinIt.dll
+C:\Yo\AstinIt\AstinIt\obj\Debug\AstinIt.pdb

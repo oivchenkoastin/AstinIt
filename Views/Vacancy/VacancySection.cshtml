@@ -1,0 +1,46 @@
+﻿@model List<Vacancy>
+
+@{
+    ViewBag.Title = "Секция городов";
+    Layout = "~/Views/Admin/_Layout.cshtml";
+}
+
+<h2>Vacancy</h2>
+<a href="/Vacancy/Create"><div class="btn btn-primary">Add</div></a>
+<div class="userVacancyGrid">
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Language</th>
+            <th scope="col">Active</th>
+            <th scope="col">Link</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var p in Model)
+        {
+            string color = p.Active ? "table-success" : "table-secondary";
+            <tr>
+                <td class="">
+                    @p.Name
+                </td>
+                <td class="">
+                    @p.Language.Name
+                </td>
+                <td class="@color">
+                    @p.Active
+                </td>
+                <td class="">
+                    <a href="/Vacancy/Vacancy/@p.Id">Edit</a>
+
+                    <a href="/Vacancy/delete/@p.Id">Delete</a>
+
+                </td>
+            </tr>
+        }
+
+        </tbody>
+    </table>
+
+</div>

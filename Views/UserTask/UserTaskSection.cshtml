@@ -1,0 +1,87 @@
+﻿@model List<UserTask>
+
+@{
+    ViewBag.Title = "UserTasks";
+    //Layout = "~/Views/Admin/_Layout.cshtml";
+    
+    string s = ViewBag.s;
+}
+
+    <div class="container">
+        <form method="get" action="/usertask/usertasksection" class="form-inline">
+            <div class="input-group mb-3 searchInput">
+                <input type="text" class="form-control" value="@s" name="s" placeholder="Search" aria-label="Search">
+                <div class="input-group-append">
+                    <button class="btn btn-secondary" type="submit">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="userInfoGrid">
+            <div class="row p-3">
+                <div class="col-md">
+                    <h2>UserTasks</h2>
+                </div>
+            </div>
+            <div class="row p-3">
+                <div class="col-md">
+                    <a href="/UserTask/Create">
+                        <div class="btn btn-primary">Add</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row p-3">
+                <div class="col-lg">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Customer</th>
+                                <th scope="col">Employee</th>
+                                <th scope="col">Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var p in Model)
+                            {
+                                string color = p.Active ? "table-success" : "table-secondary";
+                                <tr>
+                                    <td class="">
+                                        @p.Name
+                                    </td>
+                                    <td class="">
+                                        @try
+                                        {
+                                            @p.Customer.UserName
+                                        }
+                                        catch
+                                        {
+                                            @p.Name
+                                        }
+                                    </td>
+                                    <td class="">
+                                        @try
+                                        {
+                                            @p.Employee.UserName
+                                        }
+                                        catch
+                                        {
+                                            @p.Name
+                                        }
+                                    </td>
+                                    <td class="">
+                                        <a href="/UserTask/UserTask/@p.Id">Edit</a>
+
+                                        <a href="/UserTask/delete/@p.Id">Delete</a>
+
+                                    </td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>

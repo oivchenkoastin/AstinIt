@@ -1,0 +1,42 @@
+﻿@model List<City>
+
+@{
+    ViewBag.Title = "Секция городов";
+    Layout = "~/Views/Admin/_Layout.cshtml";
+}
+
+<h2>City</h2>
+<a href="/City/Create"><div class="btn btn-primary">Add</div></a>
+<div class="userInfoGrid">
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Active</th>
+            <th scope="col">Link</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var p in Model)
+        {
+            string color = p.Active ? "table-success" : "table-secondary";
+            <tr>
+                <td class="">
+                    @p.Name
+                </td>
+                <td class="@color">
+                    @p.Active
+                </td>
+                <td class="">
+                    <a href="/City/City/@p.Id">Edit</a>
+                    
+                    <a href="/city/delete/@p.Id">Delete</a>
+                    
+                </td>
+            </tr>
+        }
+
+        </tbody>
+    </table>
+
+</div>

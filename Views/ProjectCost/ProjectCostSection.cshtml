@@ -1,0 +1,41 @@
+﻿@model List<ProjectCost>
+
+@{
+    ViewBag.Title = "Costs";
+}
+
+<h2>City</h2>
+<a href="/ProjectCost/Create"><div class="btn btn-primary">Add</div></a>
+<div class="userInfoGrid">
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Value</th>
+            <th scope="col">Link</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var p in Model)
+        {
+            string color = p.Active ? "table-success" : "table-secondary";
+            <tr>
+                <td class="">
+                    @p.Name
+                </td>
+                <td class="@color">
+                    @p.Value
+                </td>
+                <td class="">
+                    <a href="/ProjectCost/UserProjectCost/@p.Id">Edit</a>
+                    
+                    <a href="/ProjectCost/delete/@p.Id">Delete</a>
+                    
+                </td>
+            </tr>
+        }
+
+        </tbody>
+    </table>
+
+</div>

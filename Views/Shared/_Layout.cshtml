@@ -1,0 +1,281 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - ASTIN IT</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+
+    <div id="headerBig" class="row headPanel">
+        <div class="col-md"></div>
+        <div class="col-md-7 headerBlock">
+            <div class="row align-middle">
+                <div class="col-md-3">
+                    <p class="headPanelText">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        @CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteHeaderAddress)
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="headPanelText">
+                        <span>
+                            <i class="fas fa-clock"></i>
+                        </span>
+                        @CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteHeaderClocks)
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <p class="headPanelText">
+                        <span>
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        <a href="callto:#">@CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteHeaderPhone)</a>
+
+                    </p>
+                </div>
+
+                @if (Request.IsAuthenticated)
+                {
+                    <div class="col-md-1">
+                        <p class="headPanelText">
+                            <a href="/project/userprojectsection">Projects</a>
+                        </p>
+
+                    </div>
+
+                    <div class="col-md-1">
+                        <p class="headPanelText">
+                            <a href="/manage">Profile</a>
+                        </p>
+                    </div>
+                    <div class="col-md-1">
+                        @using (Html.BeginForm("LogOff", "Account", new { area = "" }, FormMethod.Post, new { id = "logoutForm", @class = "headPanelText" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <a href="javascript:sessionStorage.removeItem('accessToken');$('#logoutForm').submit();">Log off</a>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <div class="col-md-1">
+                        <p class="headPanelText">
+                            <a href="/Account/Register">Register</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-1">
+                        <p class="headPanelText">
+                            <a href="/Account/Login">Login</a>
+                        </p>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="col-md"></div>
+    </div>
+
+
+
+    <div id="headerSmall" class="row headPanel">
+        <div class="col-md"></div>
+        <div class="col-md-4 headerSmallPanel">
+            <ul id="expandableSmallHeader">
+                <li>
+                    <p class="headPanelText">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        @CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteHeaderAddress)
+                    </p>
+                </li>
+                <li>
+                    <p class="headPanelText">
+                        <span>
+                            <i class="fas fa-clock"></i>
+                        </span>
+                        @CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteHeaderClocks)
+                    </p>
+                </li>
+                <li>
+                    <p class="headPanelText">
+                        <span>
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        <a href="callto:#">@CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteHeaderPhone)</a>
+
+                    </p>
+                </li>
+
+                @if (Request.IsAuthenticated)
+                {
+                    <li>
+                        <p class="headPanelText">
+                            <a href="/project/userprojectsection">Projects</a>
+                        </p>
+
+                    </li>
+
+                    <li>
+                        <p class="headPanelText">
+                            <a href="/manage">Profile</a>
+                        </p>
+                    </li>
+                    <li>
+                        @using (Html.BeginForm("LogOff", "Account", new { area = "" }, FormMethod.Post, new { id = "logoutForm", @class = "headPanelText" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <a href="javascript:sessionStorage.removeItem('accessToken');$('#logoutForm').submit();">Log off</a>
+                        }
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        <p class="headPanelText">
+                            <a href="/Account/Register">Register</a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="headPanelText">
+                            <a href="/Account/Login">Login</a>
+                        </p>
+                    </li>
+                }
+            </ul>
+            <div class="row align-middle" style="text-align: center;">
+                <div class="col-md-3 headerCol">
+                    <p class="headPanelText">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="col-md-3 headerCol">
+                    <p class="headPanelText">
+                        <span>
+                            <i class="fas fa-clock"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="col-md-3 headerCol">
+                    <p class="headPanelText">
+                        <span>
+                            <i class="fas fa-phone"></i>
+                        </span>
+
+                    </p>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+        <div class="col-md"></div>
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-lg bg-transparent container">
+        <a href="/"><img class="astinLogo" src="/Content/img/common/astin.png" /></a>
+        <button class="navbar-toggler navToggleTop" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+        </button>
+        <div class="collapse navbar-collapse text-uppercase" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-md-auto">
+                <a class="nav-item nav-link" href="/">@CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteMenuHome)</a>
+                <a class="nav-item nav-link" href="/home/services">@CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteMenuServices)</a>
+                <a class="nav-item nav-link" href="/home/about">@CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteMenuAbout)</a>
+                <a class="nav-item nav-link" href="/home/contacts">@CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteMenuContacts)</a>
+
+                @if (Request.IsAuthenticated && User.IsInRole("Admin"))
+                {
+                    <a class="nav-item nav-link" href="/admin">Admin panel</a>
+                }
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <div>
+        @RenderBody()
+        @RenderSection("SPAViews", required: false)
+        <hr />
+        <footer class="footerPanel">
+            <div class="container body-content">
+                <div class="row">
+                    <div class="col-md-4" style="color:#7d7f82">
+
+                        <h4 style="    margin: 20px;">
+                            <a href="/"><img class="astinLogoImg" src="/Content/img/common/astincorporatelogo.png" /></a> ASTIN AstinIt
+                        </h4>
+                        @CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteFooterLeft)
+                    </div>
+                    <div class="col-md-5">
+                        <h4 style="    margin: 20px;
+                                   margin-left: 40px;">
+                            Contact us
+                        </h4>
+                        <ul>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <a class="headPanelText" href="callto:#">@CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteHeaderPhone)</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <a class="headPanelText" href="mailto:#">@CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteHeaderMail)</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>@CacheData.GetInfoFromCache(AstinIt.CacheData.Info_SiteHeaderAddress)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="/">
+                            <i class="fab fa-facebook socialIcon"></i>
+                        </a>
+                        <a href="/">
+                            <i class="fab fa-twitter socialIcon"></i>
+                        </a>
+                        <a href="/">
+                            <i class="fab fa-google-plus-g socialIcon"></i>
+                        </a>
+                        @{
+                            foreach (var lang in CacheData.Language)
+                            {
+                                <a style="color:#fff" href="/home/language?name=@lang.Value.Code">
+                                    @lang.Value.Name
+                                </a>
+                            }
+                        }
+                    </div>
+                </div>
+
+
+                <hr />
+                <span>&copy; 2010 - @DateTime.Now.Year<a class="nColor" href="http://astin.co"> ASTIN Inc. </a>Powered by<a class="nColor" href="http://it.astin.co"> ASTIN IT</a></span>
+            </div>
+
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
